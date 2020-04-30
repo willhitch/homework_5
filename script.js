@@ -37,7 +37,7 @@ $(".clear").on("click", function () {
 
 //Get Local Storage Function
 function getTask() {
-  for (var i = 9; i < 17; i++) {
+  for (var i = 9; i < 18; i++) {
     $("#" + i + " textarea").val(localStorage.getItem("" + i + ""));
   }
 }
